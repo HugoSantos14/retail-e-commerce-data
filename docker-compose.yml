@@ -6,7 +6,7 @@ services:
     environment:
       POSTGRES_USER: user
       POSTGRES_PASSWORD: password
-      POSTGRES_DB: weather
+      POSTGRES_DB: retail
     ports:
       - "5434:5432"
     volumes:
